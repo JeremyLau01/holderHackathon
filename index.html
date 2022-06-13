@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <script>
+
+    function hover(element) {
+      element.setAttribute('src', 'https://raw.githubusercontent.com/JeremyLau01/No-Pressure/main/doomplings.png');
+    }
+
+    function unhover(element) {
+      element.setAttribute('src', 'https://raw.githubusercontent.com/JeremyLau01/No-Pressure/main/terriers.png');
+    }
+  </script>  
+  <style>
+    body {
+      background: linear-gradient(107.2deg, rgb(150, 15, 15) 10.6%, rgb(247, 0, 0) 91.1%);
+    }
+    h1 {
+      color: white;
+      font-size: 35px;
+      text-decoration: none;
+      text-align: center;
+      font-weight: bolder;
+      font-family: "Circular","Helvetica",sans-serif;
+}
+    
+    h2 {
+      color: whitesmoke;
+      font-size: 1.5em;
+      text-align: center;
+      font-weight: normal;
+      font-family: "Circular","Helvetica",sans-serif;
+    }
+
+    button {
+      margin: 20px auto;
+      display: block;
+      color: whitesmoke;
+      font-size: 16px;
+      background: darkred;
+      padding: 15px 20px;
+      border-radius: 30px;
+      border: 1px solid darkred;
+      box-shadow: 2px 5px 5px rgb(0 0 0 / 20%);
+      transition: all 150ms ease-in-out;
+      font-weight: bold
+    }
+
+    button:hover {
+      background: transparent;
+      color: white;
+      font-weight:  bold;
+      text-decoration: none;
+    }
+    ul {
+      list-style: none;
+      text-align: center;
+      padding: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      cursor: pointer;
+    }
+    li {
+      display: inline;
+      margin: 0 15px;
+    }
+    .students {
+      color: white;
+    }
+    .workshops {
+      color: white;
+    }
+    .stories {
+      color: white;
+    }
+    .info-heading {
+      font-weight: bold;
+      text-align: center;
+    }
+    div {
+      display: block;
+    }
+    img {
+      display: block;
+      margin: 30px auto;
+      width: 300px;
+      border-radius: 50%;
+    }
+    p {
+      text-align: center;
+    }
+    .contact-platform {
+      color: white;
+    }
+    .contact-details {
+      text-align: center;
+      font-size: 12px;
+    }
+    div {
+      display: block;
+    }
+
+    .cars {
+      color: white;
+      text-align: center;
+      font-family: "Circular","Helvetica",sans-serif;
+    }
+     
+  </style>
+  <body>
+    <h1>NO PRESSURE</h1>
+    <h2>"A good friend is like a four-leaf clover; h̶a̶r̶d̶ easy to find and lucky to have" - Irish Proverb</h2>
+     <div class="BU">
+
+    <img id="my-img" src="https://raw.githubusercontent.com/JeremyLau01/No-Pressure/main/terriers.png" onmouseover="hover(this);" onmouseout="unhover(this);" width="400"/>
+    </div>
+
+    <div class="cars">
+    <label for="cars">What time do you want to eat? </label>
+    <select name="cars" id="cars">
+      <option value="6">6:00 PM</option>
+      <option value="7">7:00 PM</option>
+      <option value="8">8:00 PM</option>
+      <option value="9">9:00 PM</option>
+    </select>
+    </div>
+
+    <a href='https://jeremylau01.github.io/No-Pressure-Website/'>
+      <button>FIND FRIENDS</button>
+    </a>
+
+    <ul>
+      <li class="students">
+        <a href = "https://www.grubhub.com/?utm_source=google&utm_medium=cpc&utm_campaign=National+%7C+All+%7C+Brand+%7C+Boston&utm_term=grub%20hug&utm_content=acct_id-3329632822:camp_id-14185977108:adgroup_id-125236022803:kwd-26471200105:creative_id-537907967201:ext_id-:matchtype_id-e:network-g:device-c:loc_interest-9061331:loc_physical-9001996&gclid=CjwKCAjwhuCKBhADEiwA1HegOegP1DWBTnyxz0REE-fRObuY91k7QDVDd2ZojYhVlenwzs--y06x9BoC-GoQAvD_BwE&gclsrc=aw.ds" target = _blank"> Grubhub
+        </a>
+      </li>
+      <a href = "https://www.bu.edu/dining/" target = _blank>
+      <li class="workshops">
+        Dining Halls
+      </a>
+      </li>
+      <a href = "https://www.bu.edu/dining/where-to-eat/" target = _blank>
+      <li class="stories">
+        Around Campus
+      </a>
+      </li>
+    </ul>
+    <hr />
+    <div class="info-heading">More info</div>
+
+    <div class="contact-details">
+      <span class="contact-platform"> Email:</span>
+      "nopressure@friends.com"
+      <span class="contact-platform"> Instagram:</span>
+      "@friends.nopressure"
+    </div>
+  </body> 
+</html>
